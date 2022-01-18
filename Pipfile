@@ -1,0 +1,11 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+jinja2 = "==3.0.3"
+
+[dev-packages]
+pre-commit = "*"
+uwsgi = "==2.0.20"
